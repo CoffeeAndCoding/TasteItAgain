@@ -24,6 +24,9 @@
 		9BF9D6AF18216B79007AEEAD /* TasteitAgainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D6AE18216B79007AEEAD /* TasteitAgainTests.m */; };
 		9BF9D6BB18216C0B007AEEAD /* TIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D6B918216C0B007AEEAD /* TIAViewController.m */; };
 		9BF9D6BC18216C0B007AEEAD /* TIAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9D6BA18216C0B007AEEAD /* TIAViewController.xib */; };
+		9BF9D6C018216D62007AEEAD /* coffeeminilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9D6BF18216D62007AEEAD /* coffeeminilogo.png */; };
+		9BF9D6C918216F4C007AEEAD /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D6C718216F4C007AEEAD /* EntryViewController.m */; };
+		9BF9D6CA18216F4C007AEEAD /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9D6C818216F4C007AEEAD /* EntryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		9BF9D6B818216C0B007AEEAD /* TIAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIAViewController.h; sourceTree = "<group>"; };
 		9BF9D6B918216C0B007AEEAD /* TIAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIAViewController.m; sourceTree = "<group>"; };
 		9BF9D6BA18216C0B007AEEAD /* TIAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIAViewController.xib; sourceTree = "<group>"; };
+		9BF9D6BF18216D62007AEEAD /* coffeeminilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coffeeminilogo.png; path = ../coffeeminilogo.png; sourceTree = "<group>"; };
+		9BF9D6C618216F4C007AEEAD /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryViewController.h; path = ../EntryViewController.h; sourceTree = "<group>"; };
+		9BF9D6C718216F4C007AEEAD /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryViewController.m; path = ../EntryViewController.m; sourceTree = "<group>"; };
+		9BF9D6C818216F4C007AEEAD /* EntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EntryViewController.xib; path = ../EntryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +127,10 @@
 		9BF9D68B18216B78007AEEAD /* TasteitAgain */ = {
 			isa = PBXGroup;
 			children = (
+				9BF9D6C618216F4C007AEEAD /* EntryViewController.h */,
+				9BF9D6C718216F4C007AEEAD /* EntryViewController.m */,
+				9BF9D6C818216F4C007AEEAD /* EntryViewController.xib */,
+				9BF9D6BF18216D62007AEEAD /* coffeeminilogo.png */,
 				9BF9D69418216B78007AEEAD /* TIAAppDelegate.h */,
 				9BF9D69518216B78007AEEAD /* TIAAppDelegate.m */,
 				9BF9D6B818216C0B007AEEAD /* TIAViewController.h */,
@@ -239,7 +250,9 @@
 			files = (
 				9BF9D69018216B78007AEEAD /* InfoPlist.strings in Resources */,
 				9BF9D6BC18216C0B007AEEAD /* TIAViewController.xib in Resources */,
+				9BF9D6CA18216F4C007AEEAD /* EntryViewController.xib in Resources */,
 				9BF9D69B18216B78007AEEAD /* Images.xcassets in Resources */,
+				9BF9D6C018216D62007AEEAD /* coffeeminilogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +273,7 @@
 			files = (
 				9BF9D69218216B78007AEEAD /* main.m in Sources */,
 				9BF9D69918216B78007AEEAD /* TasteitAgain.xcdatamodeld in Sources */,
+				9BF9D6C918216F4C007AEEAD /* EntryViewController.m in Sources */,
 				9BF9D69618216B78007AEEAD /* TIAAppDelegate.m in Sources */,
 				9BF9D6BB18216C0B007AEEAD /* TIAViewController.m in Sources */,
 			);

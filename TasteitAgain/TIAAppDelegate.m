@@ -7,6 +7,7 @@
 //
 
 #import "TIAAppDelegate.h"
+#import "TIAViewController.h"
 
 @implementation TIAAppDelegate
 
@@ -18,6 +19,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TIAViewController *strtViewController = [[TIAViewController alloc] init];
+    
+    [[self window] setRootViewController:strtViewController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
