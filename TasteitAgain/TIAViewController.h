@@ -10,4 +10,5 @@
 
 @interface TIAViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *Logo;
 @end

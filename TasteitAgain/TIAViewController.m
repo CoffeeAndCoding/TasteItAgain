@@ -19,6 +19,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        UIImage *logoImage = [UIImage imageNamed:@"coffeeminilogo.png"];
+        _Logo.image = logoImage;
+        
     }
     return self;
 }
