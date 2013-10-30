@@ -22,6 +22,8 @@
 		9BF9D6A518216B79007AEEAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9D68918216B78007AEEAD /* CoreData.framework */; };
 		9BF9D6AD18216B79007AEEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9D6AB18216B79007AEEAD /* InfoPlist.strings */; };
 		9BF9D6AF18216B79007AEEAD /* TasteitAgainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D6AE18216B79007AEEAD /* TasteitAgainTests.m */; };
+		9BF9D6BB18216C0B007AEEAD /* TIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D6B918216C0B007AEEAD /* TIAViewController.m */; };
+		9BF9D6BC18216C0B007AEEAD /* TIAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9D6BA18216C0B007AEEAD /* TIAViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9BF9D6AA18216B79007AEEAD /* TasteitAgainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasteitAgainTests-Info.plist"; sourceTree = "<group>"; };
 		9BF9D6AC18216B79007AEEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BF9D6AE18216B79007AEEAD /* TasteitAgainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasteitAgainTests.m; sourceTree = "<group>"; };
+		9BF9D6B818216C0B007AEEAD /* TIAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIAViewController.h; sourceTree = "<group>"; };
+		9BF9D6B918216C0B007AEEAD /* TIAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIAViewController.m; sourceTree = "<group>"; };
+		9BF9D6BA18216C0B007AEEAD /* TIAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIAViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 			children = (
 				9BF9D69418216B78007AEEAD /* TIAAppDelegate.h */,
 				9BF9D69518216B78007AEEAD /* TIAAppDelegate.m */,
+				9BF9D6B818216C0B007AEEAD /* TIAViewController.h */,
+				9BF9D6B918216C0B007AEEAD /* TIAViewController.m */,
+				9BF9D6BA18216C0B007AEEAD /* TIAViewController.xib */,
 				9BF9D69A18216B78007AEEAD /* Images.xcassets */,
 				9BF9D69718216B78007AEEAD /* TasteitAgain.xcdatamodeld */,
 				9BF9D68C18216B78007AEEAD /* Supporting Files */,
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF9D69018216B78007AEEAD /* InfoPlist.strings in Resources */,
+				9BF9D6BC18216C0B007AEEAD /* TIAViewController.xib in Resources */,
 				9BF9D69B18216B78007AEEAD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 				9BF9D69218216B78007AEEAD /* main.m in Sources */,
 				9BF9D69918216B78007AEEAD /* TasteitAgain.xcdatamodeld in Sources */,
 				9BF9D69618216B78007AEEAD /* TIAAppDelegate.m in Sources */,
+				9BF9D6BB18216C0B007AEEAD /* TIAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
