@@ -7,6 +7,9 @@
 //
 
 #import "TIAViewController.h"
+#import "TIAEntry.h"
+#import "TIAEntryStore.h"
+#import "EntryViewController.h"
 
 @interface TIAViewController ()
 
@@ -38,4 +41,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)newEntry:(id)sender {
+    //Create a new Entry
+    TIAEntry *newEntry = [[TIAEntryStore defaultStore] createEntry];
+    
+    EntryViewController *entryViewController = [[EntryViewController alloc] initForNewEntry:YES];
+    
+    [entryViewController setEntry:newEntry];
+    
+  //  [entryViewcontroller setDismissBlock:^{
+ //       [[self tableView] reloadData];
+//    }];
+
+    
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:entryViewController];
+    self.navigationController.navigationBar.translucent = NO;
+    
+    [self presentViewController:navController animated:YES completion:nil];
+
+    
+}
 @end
