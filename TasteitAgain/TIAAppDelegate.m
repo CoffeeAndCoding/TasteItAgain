@@ -19,10 +19,7 @@
     
     TIAViewController *strtViewController = [[TIAViewController alloc] init];
     
-    UINavigationController *navController = [[UINavigationController alloc]
-                                             initWithRootViewController:strtViewController];
-    
-    [[self window] setRootViewController:navController];
+    [[self window] setRootViewController:strtViewController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

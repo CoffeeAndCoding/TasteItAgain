@@ -32,6 +32,7 @@
 
 - (IBAction)backgroundTapped:(id)sender;
 
+- (void)cancelEntry;
 
 
 @end

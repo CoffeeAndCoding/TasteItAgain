@@ -20,7 +20,18 @@
     
     if (self) {
         if (isNew) {
-    
+            UIBarButtonItem *cancel = [[UIBarButtonItem alloc]
+                                           initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
+                                           target:self
+                                       action:@selector(cancelEntry)];
+            [[self navigationItem] setLeftBarButtonItem:cancel];
+            
+            UIBarButtonItem *cancelItem = [[UIBarButtonItem alloc]
+                                           initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward
+                                           target:self
+                                           action:@selector(cancel:)];
+            [[self navigationItem] setRightBarButtonItem:cancelItem];
+            [[self navigationItem] setTitle:@"Info"];
         
     }
 }
@@ -58,6 +69,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)cancelEntry
+{
+    [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
 }
 
 

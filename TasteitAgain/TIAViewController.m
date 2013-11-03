@@ -24,6 +24,7 @@
         // Custom initialization
         UIImage *logoImage = [UIImage imageNamed:@"coffeeminilogo.png"];
         _Logo.image = logoImage;
+      
         
     }
     return self;
@@ -57,6 +58,7 @@
     UINavigationController *navController = [[UINavigationController alloc]
                                              initWithRootViewController:entryViewController];
     self.navigationController.navigationBar.translucent = NO;
+    
     
     [self presentViewController:navController animated:YES completion:nil];
 
