@@ -22,10 +22,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        UIImage *logoImage = [UIImage imageNamed:@"coffeeminilogo.png"];
-        _Logo.image = logoImage;
-      
-        
     }
     return self;
 }
@@ -34,6 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBarHidden = YES;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,13 +53,12 @@
 //    }];
 
     
-    UINavigationController *navController = [[UINavigationController alloc]
-                                             initWithRootViewController:entryViewController];
-    self.navigationController.navigationBar.translucent = NO;
-    
-    
-    [self presentViewController:navController animated:YES completion:nil];
+     self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBarHidden = NO;
 
+    
+    
+    [self.navigationController pushViewController:entryViewController animated:YES];
     
 }
 @end

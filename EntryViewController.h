@@ -31,6 +31,8 @@
 - (id) initForNewEntry:(BOOL)isNew;
 
 - (IBAction)backgroundTapped:(id)sender;
+- (IBAction)flavorPage:(id)sender;
+
 
 - (void)cancelEntry;
 

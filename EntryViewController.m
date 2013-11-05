@@ -7,6 +7,7 @@
 //
 
 #import "EntryViewController.h"
+#import "TIATasteEntryControllerViewController.h"
 
 @interface EntryViewController ()
 
@@ -59,6 +60,14 @@
     [[self view] endEditing:YES];
 }
 
+- (IBAction)flavorPage:(id)sender {
+    TIATasteEntryControllerViewController *tasteEntry = [[TIATasteEntryControllerViewController alloc] init];
+    
+    
+    [self.navigationController pushViewController:tasteEntry animated:YES];
+    
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
@@ -75,6 +84,7 @@
 {
     [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 
 @end
