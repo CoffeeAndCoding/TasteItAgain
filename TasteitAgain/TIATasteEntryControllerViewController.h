@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TIATasteEntryControllerViewController : UIViewController
+- (IBAction)descriptorPage:(id)sender;
 
 @end

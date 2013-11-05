@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9B733C3D18270BDE00CDDB02 /* TIATasteEntryControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B733C3B18270BDE00CDDB02 /* TIATasteEntryControllerViewController.m */; };
 		9B733C3E18270BDE00CDDB02 /* TIATasteEntryControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B733C3C18270BDE00CDDB02 /* TIATasteEntryControllerViewController.xib */; };
+		9BC036F418299B2D00C974D5 /* TIATasteNoteSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC036F218299B2D00C974D5 /* TIATasteNoteSelector.m */; };
+		9BC036F518299B2D00C974D5 /* TIATasteNoteSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC036F318299B2D00C974D5 /* TIATasteNoteSelector.xib */; };
 		9BF9D68418216B78007AEEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9D68318216B78007AEEAD /* Foundation.framework */; };
 		9BF9D68618216B78007AEEAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9D68518216B78007AEEAD /* CoreGraphics.framework */; };
 		9BF9D68818216B78007AEEAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9D68718216B78007AEEAD /* UIKit.framework */; };
@@ -47,6 +49,9 @@
 		9B733C3A18270BDE00CDDB02 /* TIATasteEntryControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIATasteEntryControllerViewController.h; sourceTree = "<group>"; };
 		9B733C3B18270BDE00CDDB02 /* TIATasteEntryControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIATasteEntryControllerViewController.m; sourceTree = "<group>"; };
 		9B733C3C18270BDE00CDDB02 /* TIATasteEntryControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIATasteEntryControllerViewController.xib; sourceTree = "<group>"; };
+		9BC036F118299B2D00C974D5 /* TIATasteNoteSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIATasteNoteSelector.h; path = ../TIATasteNoteSelector.h; sourceTree = "<group>"; };
+		9BC036F218299B2D00C974D5 /* TIATasteNoteSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIATasteNoteSelector.m; path = ../TIATasteNoteSelector.m; sourceTree = "<group>"; };
+		9BC036F318299B2D00C974D5 /* TIATasteNoteSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TIATasteNoteSelector.xib; path = ../TIATasteNoteSelector.xib; sourceTree = "<group>"; };
 		9BF9D68018216B78007AEEAD /* TasteitAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteitAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9D68318216B78007AEEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BF9D68518216B78007AEEAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +143,9 @@
 		9BF9D68B18216B78007AEEAD /* TasteitAgain */ = {
 			isa = PBXGroup;
 			children = (
+				9BC036F118299B2D00C974D5 /* TIATasteNoteSelector.h */,
+				9BC036F218299B2D00C974D5 /* TIATasteNoteSelector.m */,
+				9BC036F318299B2D00C974D5 /* TIATasteNoteSelector.xib */,
 				9BF9D6C618216F4C007AEEAD /* EntryViewController.h */,
 				9BF9D6C718216F4C007AEEAD /* EntryViewController.m */,
 				9BF9D6C818216F4C007AEEAD /* EntryViewController.xib */,
@@ -266,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC036F518299B2D00C974D5 /* TIATasteNoteSelector.xib in Resources */,
 				9B733C3E18270BDE00CDDB02 /* TIATasteEntryControllerViewController.xib in Resources */,
 				9BF9D69018216B78007AEEAD /* InfoPlist.strings in Resources */,
 				9BF9D6BC18216C0B007AEEAD /* TIAViewController.xib in Resources */,
@@ -293,6 +302,7 @@
 				9BF9D69218216B78007AEEAD /* main.m in Sources */,
 				9BF9D6D31821CD65007AEEAD /* TIAEntry.m in Sources */,
 				9BF9D6CD18217E7F007AEEAD /* TIAEntryStore.m in Sources */,
+				9BC036F418299B2D00C974D5 /* TIATasteNoteSelector.m in Sources */,
 				9BF9D69918216B78007AEEAD /* TasteitAgain.xcdatamodeld in Sources */,
 				9BF9D6C918216F4C007AEEAD /* EntryViewController.m in Sources */,
 				9BF9D69618216B78007AEEAD /* TIAAppDelegate.m in Sources */,

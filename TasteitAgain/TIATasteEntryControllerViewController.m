@@ -7,6 +7,7 @@
 //
 
 #import "TIATasteEntryControllerViewController.h"
+#import "TIATasteNoteSelector.h"
 
 @interface TIATasteEntryControllerViewController ()
 
@@ -37,4 +38,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)descriptorPage:(id)sender {
+
+    TIATasteNoteSelector *descriptorPage = [[TIATasteNoteSelector alloc] init];
+    
+        [self.navigationController pushViewController:descriptorPage animated:YES];
+}
 @end
