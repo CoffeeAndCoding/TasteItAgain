@@ -29,7 +29,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    
+    
     [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,4 +48,6 @@
     
         [self.navigationController pushViewController:descriptorPage animated:YES];
 }
+
+
 @end

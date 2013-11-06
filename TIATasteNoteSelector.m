@@ -7,14 +7,16 @@
 //
 
 #import "TIATasteNoteSelector.h"
+#import "TIATasteEntryControllerViewController.h"
 
 @interface TIATasteNoteSelector ()
 
-@property NSArray* descriptorArray;
 
 @end
 
 @implementation TIATasteNoteSelector
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,13 +40,13 @@
 }
 
 - (IBAction)descriptorPressed:(id)sender {
-    NSMutableArray *decriptorArray = [[NSMutableArray alloc ] init];
+    NSMutableArray *descriptorArray = [[NSMutableArray alloc ] init];
     
     UIButton *buttonPressed = sender;
     NSString *buttonPressedTitle = buttonPressed.titleLabel.text;
     
-    if ([decriptorArray count] < 8 ){
-    [decriptorArray addObject:buttonPressedTitle];
+    if ([descriptorArray count] < 8 ){
+    [descriptorArray addObject:buttonPressedTitle];
     
     
     NSLog(@"%@", buttonPressedTitle);

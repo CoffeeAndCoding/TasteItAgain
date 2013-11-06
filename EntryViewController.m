@@ -19,6 +19,8 @@
 {
     self = [super initWithNibName:@"EntryViewController" bundle:nil];
     
+    
+    
     if (self) {
         if (isNew) {
             UIBarButtonItem *cancel = [[UIBarButtonItem alloc]
@@ -53,6 +55,8 @@
 {
     [super viewDidLoad];
     [self setEdgesForExtendedLayout:UIRectEdgeNone];
+    NSMutableArray *descriptorArray = [[NSMutableArray alloc ]init];
+    
 }
 
 - (IBAction)backgroundTapped:(id)sender

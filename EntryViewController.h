@@ -28,6 +28,10 @@
 
 @property (nonatomic, strong) TIAEntry *entry;
 
+@property (nonatomic, strong)NSString *descriptorArray;
+
+
+
 - (id) initForNewEntry:(BOOL)isNew;
 
 - (IBAction)backgroundTapped:(id)sender;
