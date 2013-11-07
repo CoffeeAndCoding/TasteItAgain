@@ -8,12 +8,16 @@
 
 #import "TIATasteEntryControllerViewController.h"
 #import "TIATasteNoteSelector.h"
+#import "TIAEntry.h"
 
 @interface TIATasteEntryControllerViewController ()
 
 @end
 
+
 @implementation TIATasteEntryControllerViewController
+
+@synthesize entry;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,9 +28,26 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    [descriptorOne setText:[entry traitOne]];
+    [descriptorTwo setText:[entry traitTwo]];
+    [descriptorThree setText:[entry traitThree]];
+
+    [descriptorFour setText:[entry traitFour]];
+    [descriptorFive setText:[entry traitFive]];
+
+    [descriptorSix setText:[entry traitSix]];
+    [descriptorSeven setText:[entry traitSeven]];
+
+
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view from its nib.
     
     

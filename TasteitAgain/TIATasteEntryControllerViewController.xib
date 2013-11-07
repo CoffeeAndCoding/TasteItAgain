@@ -6,13 +6,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TIATasteEntryControllerViewController">
             <connections>
-                <outlet property="descriptorFive" destination="HHE-18-yjz" id="Jsg-OZ-iaB"/>
-                <outlet property="descriptorFour" destination="vFx-Z5-AII" id="qnu-LU-HX5"/>
-                <outlet property="descriptorOne" destination="iCo-GM-M9v" id="4r1-lh-DCH"/>
-                <outlet property="descriptorSeven" destination="RaP-hY-4Ue" id="ktZ-Pb-xme"/>
-                <outlet property="descriptorSix" destination="0Mq-cK-tB1" id="CSh-fi-stA"/>
-                <outlet property="descriptorThree" destination="N08-dZ-aCu" id="Fnw-OO-wQE"/>
-                <outlet property="descriptorTwo" destination="vle-oA-GQZ" id="3vr-dm-j64"/>
+                <outlet property="descriptorFive" destination="HHE-18-yjz" id="KsI-ij-JqI"/>
+                <outlet property="descriptorFour" destination="vFx-Z5-AII" id="j6q-It-83L"/>
+                <outlet property="descriptorOne" destination="iCo-GM-M9v" id="MZS-r8-gy1"/>
+                <outlet property="descriptorSeven" destination="RaP-hY-4Ue" id="QDP-l2-Xzr"/>
+                <outlet property="descriptorSix" destination="0Mq-cK-tB1" id="p2S-xg-mjb"/>
+                <outlet property="descriptorThree" destination="N08-dZ-aCu" id="pgL-la-tFC"/>
+                <outlet property="descriptorTwo" destination="vle-oA-GQZ" id="6Xh-cg-kau"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>

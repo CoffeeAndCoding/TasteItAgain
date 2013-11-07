@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class TIAEntry;
+
 @interface TIATasteNoteSelector : UIViewController
 - (IBAction)descriptorPressed:(id)sender;
+
+@property (nonatomic, strong)NSMutableArray *descriptorArray;
+@property (nonatomic, strong) TIAEntry *entry;
+
 
 
 

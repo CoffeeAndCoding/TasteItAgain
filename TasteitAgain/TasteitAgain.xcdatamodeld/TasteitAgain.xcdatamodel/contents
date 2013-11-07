@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="TIAEntry" representedClassName="TIAEntry" syncable="YES">
+        <attribute name="acidity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="brew" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="finish" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="preparedBy" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="processed" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="roastedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sweet" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="traitFive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitFour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitSeven" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitSix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitThree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traitTwo" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="TIAEntry" positionX="0" positionY="0" width="0" height="0"/>

@@ -19,5 +19,24 @@
 @dynamic orderingValue;
 @dynamic preparedBy;
 @dynamic brew;
+@dynamic traitOne;
+@dynamic traitTwo;
+@dynamic traitThree;
+@dynamic traitFour;
+@dynamic traitFive;
+@dynamic traitSix;
+@dynamic traitSeven;
+@dynamic body;
+@dynamic finish;
+@dynamic sweet;
+@dynamic acidity;
+@dynamic notes;
+
+- (void)awakeFromInsert
+{
+    [super awakeFromInsert];
+    NSTimeInterval t = [[NSDate date] timeIntervalSinceReferenceDate];
+    [self setDateCreated:t];
+}
 
 @end

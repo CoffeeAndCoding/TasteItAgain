@@ -152,8 +152,6 @@
 				9B733C3A18270BDE00CDDB02 /* TIATasteEntryControllerViewController.h */,
 				9B733C3B18270BDE00CDDB02 /* TIATasteEntryControllerViewController.m */,
 				9B733C3C18270BDE00CDDB02 /* TIATasteEntryControllerViewController.xib */,
-				9BF9D6CB18217E7F007AEEAD /* TIAEntryStore.h */,
-				9BF9D6CC18217E7F007AEEAD /* TIAEntryStore.m */,
 				9BF9D6BF18216D62007AEEAD /* coffeeminilogo.png */,
 				9BF9D69418216B78007AEEAD /* TIAAppDelegate.h */,
 				9BF9D69518216B78007AEEAD /* TIAAppDelegate.m */,
@@ -164,6 +162,8 @@
 				9BF9D69718216B78007AEEAD /* TasteitAgain.xcdatamodeld */,
 				9BF9D6D11821CD65007AEEAD /* TIAEntry.h */,
 				9BF9D6D21821CD65007AEEAD /* TIAEntry.m */,
+				9BF9D6CB18217E7F007AEEAD /* TIAEntryStore.h */,
+				9BF9D6CC18217E7F007AEEAD /* TIAEntryStore.m */,
 				9BF9D68C18216B78007AEEAD /* Supporting Files */,
 			);
 			path = TasteitAgain;

@@ -8,20 +8,31 @@
 
 #import <UIKit/UIKit.h>
 
+@class TIAEntry;
+
 @interface TIATasteEntryControllerViewController : UIViewController
+{
+   
+    __weak IBOutlet UILabel *descriptorOne;
+    
+    __weak IBOutlet UILabel *descriptorTwo;
+
+    __weak IBOutlet UILabel *descriptorThree;
+
+    __weak IBOutlet UILabel *descriptorFour;
+    
+    __weak IBOutlet UILabel *descriptorFive;
+    
+    __weak IBOutlet UILabel *descriptorSix;
+    
+    __weak IBOutlet UILabel *descriptorSeven;
+    
+    
+}
+
+@property (nonatomic, strong)TIAEntry *entry;
 
 - (IBAction)descriptorPage:(id)sender;
-
-@property (weak, nonatomic) IBOutlet UILabel *descriptorOne;
-
-@property (weak, nonatomic) IBOutlet UILabel *descriptorTwo;
-
-@property (weak, nonatomic) IBOutlet UILabel *descriptorThree;
-@property (weak, nonatomic) IBOutlet UILabel *descriptorFour;
-@property (weak, nonatomic) IBOutlet UILabel *descriptorFive;
-@property (weak, nonatomic) IBOutlet UILabel *descriptorSix;
-
-@property (weak, nonatomic) IBOutlet UILabel *descriptorSeven;
 
 
 
