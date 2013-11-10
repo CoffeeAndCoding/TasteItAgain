@@ -67,41 +67,48 @@
     
     
 }
-//Getting error if not enough flavors were selected - ie if 3 flavors are selected - trying to figure out how 
+//Error fixed but still not saving info
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    if ([descriptorArray objectAtIndex:0]) {
+    if ([descriptorArray count] > 0) {
     [entry setTraitOne:[descriptorArray objectAtIndex:0]];
     }
-    if ([descriptorArray objectAtIndex:1]) {
+    if ([descriptorArray count] > 1 ){
 
     [entry setTraitTwo:[descriptorArray objectAtIndex:1]];
     }
-    if ([descriptorArray objectAtIndex:2]) {
-
-    [entry setTraitThree:[descriptorArray objectAtIndex:2]];
+    
+    if ([descriptorArray count] > 2) {
+        [entry setTraitThree:[descriptorArray objectAtIndex:2]];
     }
-    if ([descriptorArray objectAtIndex:3]) {
+    
+    if ([descriptorArray count] > 3) {
 
     [entry setTraitFour:[descriptorArray objectAtIndex:3]];
     }
-    if ([descriptorArray objectAtIndex:4]) {
+    if ([descriptorArray count] > 4) {
 
     [entry setTraitFive:[descriptorArray objectAtIndex:4]];
     }
-    if ([descriptorArray objectAtIndex:5]) {
+    if ([descriptorArray count] > 5) {
 
     [entry setTraitSix:[descriptorArray objectAtIndex:5]];
     }
-    if ([descriptorArray objectAtIndex:6]) {
+    if ([descriptorArray count] > 6) {
 
     [entry setTraitSeven:[descriptorArray objectAtIndex:6]];
     }
 
-    for (NSString *i in descriptorArray) {
-        NSLog(@"%@", i);
+    
     }
     
+
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    for (NSString *i in descriptorArray) {
+        NSLog(@"%@", i);}
+    NSLog(@"%@ is set to trait one", entry.traitOne);
 }
 @end
